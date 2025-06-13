@@ -1,3 +1,4 @@
 sphinx==2.4.4
 m2r
 -e git+git://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
